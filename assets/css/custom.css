@@ -327,7 +327,10 @@ html {
     margin-top: 40px;
 }
 
-
+.section .typewrite{
+    text-decoration: none;
+   
+}
 
 /* Buttons */
 

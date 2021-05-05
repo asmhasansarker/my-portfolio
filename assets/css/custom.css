@@ -663,6 +663,27 @@ figure.snip1321.hover:after {
 }
 
 
+/* Blogs */
+.blog {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.blog:hover,
+.blog:focus,
+.blog:active {
+    transform: scale(1.1);
+}
+
+
+
+
 /* Contact Me */
 
 section.contact-me {
@@ -840,5 +861,8 @@ section.contact-me {
     }
     .isotope-toolbar {
         margin-bottom: 20px;
+    }
+    .blogs .blog{
+        margin-top: 25px;
     }
 }
